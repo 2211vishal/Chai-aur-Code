@@ -9,9 +9,8 @@ console.log(typeof(score));
 
 
 let valinnumber=Number(score)
-console.log(typeof valinnumber);
-
-console.log(valinnumber);
+// console.log(typeof valinnumber);
+// console.log(valinnumber);
 
 
 // "33" => 33 easily convert in to 33
@@ -21,7 +20,7 @@ console.log(valinnumber);
 
 let number=1
 let boolean=Boolean(number)
-console.log(boolean);
+// console.log(boolean);
 
 // true =>1 //false=>0
 // "" => false
@@ -30,5 +29,52 @@ console.log(boolean);
 
 let somenumber=33
 let convertstring= String(somenumber)
-console.log(convertstring);
-console.log(typeof convertstring);
+// console.log(convertstring);
+// console.log(typeof convertstring);
+
+
+
+
+//******************OPERATIONS ******* */
+
+
+let value=3
+let negvalue=-value
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2-2);
+// console.log(2**3);
+// console.log(2%2);
+//console.log(2/2);
+
+
+let str1="hello"
+let str2=" vishal"
+let str3=str1+str2
+console.log(str3);
+
+
+
+// console.log("1" +2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"3");
+// console.log((2+3)*4%3);
+
+
+// console.log(+true); do not use this type of conversion
+//console.log(+"");
+
+let gamecounter=100
+gamecounter++;
+//++gamecounter; output is same nut they have prefix and postfix method to changes
+console.log(gamecounter);
+
+
+
+
+
+
+
